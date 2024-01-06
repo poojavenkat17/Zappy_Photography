@@ -7,6 +7,24 @@
  <style>
  
  @media only screen and (max-width: 880px) {
+    section{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 60%;
+  flex-direction: row;
+ 
+  
+}
+.js-first-content
+    {
+       align-items: center;
+       display: flex;
+       align-items: center;
+       width: 90%;;
+    }
+
     .js-second-content
     {
        align-items: center;
@@ -17,7 +35,10 @@
     
     p,h1,h2,h3,h4,h5,h6,em,blockquote,.card{
      font-size: 18px;;
-    }}
+    }
+a{
+    color: #000;
+}}
 	</style>
 	<script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -477,14 +498,14 @@
 	  </nav>
       <!-- responsive nav -->
       <div class="overlay-menu__wrapper ca-overlay-menu-YBAoAg">
-        <a class="overlay-nav__close-link" href="#" style="display: none;">
+        <a class="overlay-nav__close-link" href="#" style="display: none;color: #000;">
         <i class="fal fa-times ca-overlay-icon-zglAm2 ca-overlay-icon-hover-MNeZxg"></i>
         </a>
-        <ul class="overlay-menu__nav">
-        <li class="overlay-menu__item" id="navaling" > <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20px" height:="20px" viewBox="0,0,256,256">
+        <ul class="overlay-menu__nav" style="color: #000">
+        <li class="overlay-menu__item" id="navaling" > <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20px" height:="20px" viewBox="0,0,256,256" style="color: #000">
             <g transform="translate(7.68,7.68) scale(0.94,0.94)"><g fill="#000000" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="translate(-1.13846,-12.95385) scale(9.84615,9.84615)"><path d="M20,2.03125c-0.55078,0 -1,0.44922 -1,1v4.78125l-5.28125,-5.28125c-0.39062,-0.39062 -1.04687,-0.39062 -1.4375,0l-11.71875,11.75c-0.39062,0.39063 -0.39062,1.01563 0,1.40625c0.39063,0.39063 1.01563,0.39063 1.40625,0l11.03125,-11.03125l11.0625,11.0625c0.19531,0.19531 0.46094,0.3125 0.71875,0.3125c0.25781,0 0.49219,-0.11719 0.6875,-0.3125c0.39063,-0.39062 0.39063,-1.01562 0,-1.40625l-3.46875,-3.46875v-7.8125c0,-0.55078 -0.44922,-1 -1,-1zM13,6.5l-11,11v5.5c0,1.65625 1.34375,3 3,3h16c1.65625,0 3,-1.34375 3,-3v-5.5zM11,16h4c0.55078,0 1,0.44922 1,1v6c0,0.55078 -0.44922,1 -1,1h-4c-0.55078,0 -1,-0.44922 -1,-1v-6c0,-0.55078 0.44922,-1 1,-1z"></path></g></g></g>
             </svg>
-        <a class="overlay-menu__primary ca-overlay-link-K2kd0B ca-overlay-link-hover-W2qEb2" href="/"> 
+        <a class="overlay-menu__primary ca-overlay-link-K2kd0B ca-overlay-link-hover-W2qEb2" href="/" style="color: #000"> 
         Home
         </a>
         </li>
@@ -643,7 +664,7 @@ crossorigin="anonymous"></script>
 <div id="jquery-tab-results">
 <section class="js-first-content active">
     
-
+<div class="element">
         <a href="/marriage" class="card" >
             
             <div class="card__head" >
@@ -660,13 +681,15 @@ crossorigin="anonymous"></script>
             </div>
             <div class="card__body">
                 <!-- <div class="card__headline" >Hover me</div> -->
-                <div class="card__text" style="font-family: 'Cormorant Garamond', serif; font-size: 20px;">A good photograph is one that communicates a fact, touches the heart, and leaves the viewer a changed person for having seen it. It is, in a word, effective. ― Irving Penn</div>
+                <div class="card__text" style="font-family: 'Cormorant Garamond', serif; font-size: 20px;">A good photograph is one that communicates a fact, touches the heart, and leaves the viewer a changed person for having seen it. ― Irving Penn</div>
             </div>
             <div class="card__foot">
                 <span class="card__link">View Photos</span>
             </div>
             <div class="card__border"></div>
         </a>
+    </div>
+    <div class="element">
         <a href="#" class="card" >
             <div class="card__head" >
                 <div class="card__image" style=" background-image: url('./img/1.jpeg');;"></div>
@@ -690,6 +713,8 @@ crossorigin="anonymous"></script>
             </div>
             <div class="card__border"></div>
         </a>
+    </div>
+    <div class="element">
         <a href="#" class="card" >
             <div class="card__head" >
                 <div class="card__image" style=" background-image: url('./img/maternity.jpeg');"></div>
@@ -712,6 +737,8 @@ crossorigin="anonymous"></script>
             </div>
             <div class="card__border"></div>
         </a>
+    </div>
+    <div class="element">
         <a href="/baby" class="card" >
             <div class="card__head" >
                 <div class="card__image" style=" background-image: url('./img/baby.jpeg');"></div>
@@ -735,6 +762,8 @@ crossorigin="anonymous"></script>
             </div>
             <div class="card__border"></div>
         </a>
+    </div>
+    <div class="element">
         <a href="#" class="card" >
             <div class="card__head" >
                 <div class="card__image" style=" background-image: url('./img/bride.jpg');"></div>
@@ -751,7 +780,7 @@ crossorigin="anonymous"></script>
             <div class="card__body">
                 <!-- <div class="card__headline" >Hover me</div> -->
                 <div class="card__text" style="font-family: 'Cormorant Garamond', serif; font-size: 20px;">
-                    "If you perform the sacrifice of doing your duty, you do not have to do anything else. Devoted to duty, man attains perfection"-- Bhagavad Gita</br></br></br>
+                    "If you perform the sacrifice of doing your duty, you do not have to do anything else. Devoted to duty, man attains perfection"-- Bhagavad Gita</br></br>
     
     </div>
             </div>
@@ -760,6 +789,8 @@ crossorigin="anonymous"></script>
             </div>
             <div class="card__border"></div>
         </a>
+    </div>
+    <div class="element">
         <a href="#" class="card" >
             <div class="card__head" >
                 <div class="card__image" style=" background-image: url('./img/pre.jpeg');"></div>
@@ -783,12 +814,13 @@ crossorigin="anonymous"></script>
             </div>
             <div class="card__border"></div>
         </a>
+    </div>
     
 </section>
 <br><br>
 <section class="js-second-content ">
     <% videoDocument.forEach(video => { %>
-    <iframe width="560" height="315" src="<%=video.Video%>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="400" height="315" src="<%=video.Video%>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <% }); %>
 
 </section>

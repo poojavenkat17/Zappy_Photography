@@ -11,26 +11,39 @@ section
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 80%;
+  width: 90%;
+  align-items: center;
   flex-direction: row;
+
+
+  
   
 }
+.js-first-content
+    {
+       align-items: center;
+       display: flex;
+       align-items: center;
+       width: 90%;;
+    }
+
+.element {
 
 
-.card {
- 
-  float:left;
-  display:flex;
+display:flex;
+float: inline-start;
 
 
-  margin: 12px 12px ;
-
+width: 320px;;
   
   flex-wrap: wrap;
-  gap: 10px;
+margin: 10px 10px;
 
-flex-direction: row;
-width: 340px;
+flex-direction: row; 
+ justify-content: center;
+flex-wrap: wrap;
+
+align-items: center;
 
 color: currentColor;
 text-decoration: none;

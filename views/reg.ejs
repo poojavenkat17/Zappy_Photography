@@ -14,11 +14,25 @@
 
    
     
-  body {
-    font-family: Arial, sans-serif;
-   bottom: 0;
-    background-color: #f8f9fa;
-  }
+.zappy {
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	width: 100%;
+  height: fit-content;
+	font-size: 40px;
+  text-align: center;
+  margin-top: 25px;;
+  font-family: 'Playfair Display'
+ 
+}
+    
+    body {
+      font-family: Arial, sans-serif;
+     bottom: 0;
+     background-image: url(./img/contactbanner.jpg);
+    }
  
   #userType{
     width: 100%;
@@ -118,6 +132,11 @@ body {
  
   width: 114%;
 }
+body {
+      font-family: Arial, sans-serif;
+     bottom: 0;
+     background-image: url(./img/bg.jpg);
+    }
 .container{
 
     text-align: center;
@@ -148,11 +167,9 @@ margin-bottom: 10px;;
 
 <body>
   <div class="entire">
-  <div class="contain">
-    <img src="./img/reg.jpg" alt="image">
-  </div>
+ 
   <div class="container">
-    <h1>Register</h1>
+    <h3 class="zappy">Zappy Photography</h3>
     
     <form id="loginForm" action="/register" method="POST">
       
